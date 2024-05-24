@@ -1,95 +1,25 @@
-/*
- * Globals
- */
-
-
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 300 to 900 */
-
-.rubik-title {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 36px;
-}
-
-/*
- * Base structure
- */
-
-body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  
-}
-
-.cover-container {
-  max-width: 42em;
-  
+.span {
+    font-size: 24px; 
 
 }
 
-.image-container {
-  
-  position: relative;
-  text-align: center;
-  
-  
-  
-}
-.image-container img {
-  
-  width: 95%;
-  height: auto;
-  
-}
-.image-container h1 {
-  position: absolute;
-  
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.header {
+    display: flex;
+    justify-content: space-around;
 }
 
-/*.lead-photo {
-  display: flex;
-  
-  
-  width: 100vh;
-  
-}
-*/
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+.c1 {
+    background-image: url(./images/jason-leung-Tea\ Market-unsplash.jpg);
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
 
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
