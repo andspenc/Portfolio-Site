@@ -57,6 +57,8 @@ function handleClick() {
         default: console.log();
             break;
     }
+
+    buttonAnimation(buttonInnerHTML);
 }
 
 document.addEventListener("keydown", function(event){
@@ -104,4 +106,19 @@ document.addEventListener("keydown", function(event){
         default: console.log();
             break;
     }
+     buttonAnimation(keyPressed);
+
 })
+
+function buttonAnimation(currentKey) {
+
+   var activeButton = document.querySelector("."+ currentKey);
+
+   activeButton.classList.add("pressed");
+
+   setTimeout(function() {
+    activeButton.classList.remove("pressed");
+   }, 100);
+
+
+}
